@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//com/DictCheck.py=utf-8
+encoding//com/Functions.py=utf-8
+encoding//img_spider/html_output.py=utf-8
+encoding//img_spider/html_parser.py=utf-8
+encoding//img_spider/spider_main.py=utf-8
+encoding//img_spider/url_manager.py=utf-8
+encoding//test/Employee.py=utf-8
+encoding//test/__init__.py=utf-8
+encoding//test/findImg.py=utf-8
+encoding//test/getBaiduImg.py=utf-8
