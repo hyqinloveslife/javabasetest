@@ -9,7 +9,8 @@ import cookielib
 from bs4 import BeautifulSoup
 import urllib
 #url = 'http://www.baidu.com'\
-url = 'http://fuliba.net/%e5%bf%83%e8%84%8f%e6%95%99%e5%ad%a6.html'
+#url = 'http://fuliba.net/%e5%bf%83%e8%84%8f%e6%95%99%e5%ad%a6.html'
+url = 'http://bbs.chongbuluo.com/forum.php?mod=viewthread&tid=3242'
 # #创建request对象
 # req = urllib2.Request(url)
 # 
@@ -40,7 +41,7 @@ soups = BeautifulSoup(cont,'html.parser',from_encoding='utf-8')
 
 print '获取所有的链接'
 
-links = soups.find_all('img')
+links = soups.find_all('img',class_='zoom')
 x=0
 for  _index in links:
     print _index.name,_index['src']
