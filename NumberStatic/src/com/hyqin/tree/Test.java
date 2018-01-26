@@ -10,6 +10,8 @@ public class Test {
 		list.add(new Tree<String>("B",5));
 		list.add(new Tree<String>("C",4));
 		list.add(new Tree<String>("D",2));
+		list.add(new Tree<String>("E",13));
+		list.add(new Tree<String>("F",90));
 		
 		Tree<String> tree = HaffManTree.createTree(list);
 		System.out.println(tree.toString());
